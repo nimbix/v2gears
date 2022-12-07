@@ -1,0 +1,33 @@
+{
+    "name": "V2 glxgears demo",
+    "description": "",
+    "author": "",
+    "licensed": true,
+    "appdefversion": 2,
+    "classifications": [
+        "Uncategorized"
+    ],
+    "machines": [
+        "*"
+    ],
+    "vault-types": [
+        "FILE",
+        "BLOCK",
+        "BLOCK_ARRAY",
+        "OBJECT"
+    ],
+    "commands": {
+        "glxgears": {
+            "path": "/usr/bin/glxgears",
+            "desktop": true,
+            "interactive": true,
+            "name": "glxgears",
+            "description": "Run glxgears demo in your browser",
+            "parameters": {}
+        }
+    },
+    "image": {
+        "data": "",
+        "type": "image/png"
+    }
+}
