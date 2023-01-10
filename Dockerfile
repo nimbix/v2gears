@@ -1,7 +1,7 @@
 FROM ubuntu:bionic
 
 # Install jarvice-desktop tools and desktop from Nimbix repository
-ENV JARVICE_DESKTOP_ITER 6
+ENV JARVICE_DESKTOP_ITER 7
 RUN apt-get -y update && \
     DEBIAN_FRONTEND=noninteractive apt-get -y install ca-certificates curl --no-install-recommends && \
     curl -H 'Cache-Control: no-cache' \
